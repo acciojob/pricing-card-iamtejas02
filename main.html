@@ -1,16 +1,81 @@
 <!DOCTYPE html>
-
-<html>
-
+<html lang="en">
 <head>
-	<link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8" />
+  <title>Pricing Card</title>
+
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-color: #f4f4f4;
+      font-family: Georgia, serif;
+    }
+
+    /* Card container */
+    .card {
+      width: 300px;
+      padding: 20px;
+      background-color: #ffffff;
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+      text-align: center;
+      border-radius: 4px;
+    }
+
+    /* Image styling */
+    .card img {
+      width: 100%;
+      border-radius: 4px;
+    }
+
+    /* Title */
+    .card h1 {
+      margin: 15px 0 10px;
+      font-size: 28px;
+      font-weight: bold;
+    }
+
+    /* Price and description */
+    .card p {
+      margin: 8px 0;
+      font-size: 18px;
+    }
+
+    /* Button */
+    .card button {
+      margin-top: 15px;
+      padding: 10px 25px;
+      background-color: #f26c5f;
+      color: white;
+      border: none;
+      border-radius: 20px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+
+    .card button:hover {
+      background-color: #e85a4f;
+    }
+  </style>
 </head>
 
 <body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
+
+  <div class="card">
+    <img src="/mnt/data/ec37d293-09d4-416e-9d42-c799a55439d6.png" alt="Pricing Image" />
+
+    <h1>Pricing Card</h1>
+
+    <p><strong>Price:</strong> Rs.200</p>
+
+    <p>Description: Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+
+    <button>Buy Now</button>
+  </div>
 
 </body>
-
 </html>
